@@ -9,6 +9,7 @@
             <li>save to Firestore</li>
             <li>load from Firestore</li>
             <li>decrypt</li>
+        </ol>
         <form>
             <div class="form-group form-check">
                 <input type="file" class="custom-file-input" id="customFile" @change="filechange($event)">
