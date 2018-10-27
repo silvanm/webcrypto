@@ -1,6 +1,15 @@
-# webcrypto
+# webcrypto end2end demo
+
+Demo showing how Webcrypto works.
+
+Demonstrates a end2end encryption with server side storage on Firestore.
+
+See a demo on [Youtube](https://www.youtube.com/watch?v=Kqt-hTqEgP4).
 
 ## Project setup
+Populate `.env.local`.
+
+Run
 ```
 yarn install
 ```
@@ -8,24 +17,4 @@ yarn install
 ### Compiles and hot-reloads for development
 ```
 yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
 ```
